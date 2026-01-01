@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <title>产品展示</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            background: #f8f8f8;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .header p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 24px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            background: #007aff;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello GitHub Pages</h1>
-  p>这是我的html主页
+
+<div class="header">
+    <h1>自拍机器人</h1>
+    <p>智能跟踪 • 稳定录像 • 极致简洁</p>
+    <a href="#demo" class="btn">观看演示</a>
+</div>
+
+<div class="container">
+    <div class="section" id="features">
+        <h2>核心功能</h2>
+        <ul>
+            <li>实时目标识别与跟踪</li>
+            <li>安卓平板前置摄像头控制</li>
+            <li>ROS2 控制 & 自主导航</li>
+            <li>自动防抖与录像稳定</li>
+        </ul>
+    </div>
+
+    <div class="section" id="demo">
+        <h2>产品演示</h2>
+        <img src="assets/video/demo-thumbnail.jpg" alt="Demo Thumbnail">
+    </div>
+
+    <div class="section" id="contact">
+        <h2>联系我们</h2>
+        <p>微信: <b>your_wechat</b></p>
+        <p>邮箱: <b>your_email@example.com</b></p>
+    </div>
+</div>
+
+<div class="footer">
+    © 2025 自拍机器人 | All Rights Reserved
+</div>
+
 </body>
 </html>
